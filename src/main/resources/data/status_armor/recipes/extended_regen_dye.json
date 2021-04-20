@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " #",
+        "G "
+    ],
+    "key": {
+        "#": {
+            "item": "status_armor:regen_dye"
+        },
+        "G": {
+            "item": "minecraft:glowstone_dust"
+        }
+    },
+    "result": {
+        "item": "status_armor:extended_regen_dye",
+        "count": 1
+    }
+}

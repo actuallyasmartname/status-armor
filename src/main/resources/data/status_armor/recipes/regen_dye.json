@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " #",
+        "P "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:ghast_tear"
+        },
+        "P": {
+            "item": "minecraft:pink_dye"
+        }
+    },
+    "result": {
+        "item": "status_armor:regen_dye",
+        "count": 1
+    }
+}
