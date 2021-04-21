@@ -40,25 +40,25 @@ public abstract class MixinPlayerEntity extends LivingEntity{
 	public void updateRegenHelmet() {
 		ItemStack regenHelmet = this.getEquippedStack(EquipmentSlot.HEAD);
 		if (regenHelmet.getItem() == armorregister.REGEN_HELMET) {
-			this.addStatusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 20, 0, false, false, false));
+			this.addStatusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 2, 1, false, false, false));
 		}
 	}
 	public void updateRegenChest() {
 		ItemStack regenChest = this.getEquippedStack(EquipmentSlot.CHEST);
 		if (regenChest.getItem() == armorregister.REGEN_CHESTPLATE) {
-			this.addStatusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 20, 0, false, false, false));
+			this.addStatusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 2, 1, false, false, false));
 		}
 	}
 	public void updateRegenLeggings() {
 		ItemStack regenLeggings = this.getEquippedStack(EquipmentSlot.CHEST);
 		if (regenLeggings.getItem() == armorregister.REGEN_LEGGINGS) {
-			this.addStatusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 20, 0, false, false, false));
+			this.addStatusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 2, 1, false, false, false));
 		}
 	}
 	public void updateRegenBoots() {
 		ItemStack regenBoots = this.getEquippedStack(EquipmentSlot.FEET);
 		if (regenBoots.getItem() == armorregister.REGEN_BOOTS) {
-			this.addStatusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 20, 0, false, false, false));
+			this.addStatusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 2, 1, false, false, false));
 		}
 	}
 }
